@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CheckIcon from "@/components/icons/check";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             </code>
             .
           </li>
+          <CheckIcon />
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
           </li>
